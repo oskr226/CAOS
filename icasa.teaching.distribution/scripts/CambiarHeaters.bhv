@@ -1,0 +1,10 @@
+<behavior startdate="26/04/2013-01:42:04" factor="1440">
+
+	<!-- Device Section -->
+
+	<set-device-property deviceId="Heater-f6978cd8c8" property="heater.powerLevel" value="0.5"/>	
+	<set-device-property deviceId="Heater-4d44abd07b" property="heater.powerLevel" value="0.5"/>	
+	<set-device-property deviceId="Heat-F2145T-M" property="heater.powerLevel" value="0.5"/>	
+	<set-device-property deviceId="Heater-258a4a3490" property="heater.powerLevel" value="0.5"/>
+
+</behavior>

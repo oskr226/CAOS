@@ -178,7 +178,26 @@ public class SimpleIcasaComponent implements DeviceListener{
 					}
 					
 				}
+				
+			//Verificamos la temperatura ( > 300)
+				if(thermometer.getTemperature() > 300){
+					//Recorremos los coolers Encendemos
+					for (Cooler cooler : Lcooler) {
+						if(cooler.LOCATION_PROPERTY_NAME == device.LOCATION_PROPERTY_NAME){
+							cooler.setPowerLevel(0.6);
+						}
+					}
+					
+					//Recorremos los heaters y los apagamos
+					for (Heater heater : Lheater) {
+						if(heater.LOCATION_PROPERTY_NAME == device.LOCATION_PROPERTY_NAME){
+							heater.setPowerLevel(0.0);
+						}
+					}
+				}
+				
 			}
+			
 			
 		}
 				

@@ -166,7 +166,7 @@ public class SimpleIcasaComponent implements DeviceListener{
 					//recorrer todos los heaters encedenmos
 					for (Heater heaterlocal : Lheater) {
 						if(heaterlocal.LOCATION_PROPERTY_NAME == device.LOCATION_PROPERTY_NAME){
-							heaterlocal.setPowerLevel(0.6);
+							heaterlocal.setPowerLevel(0.8);
 						}						
 					}
 					

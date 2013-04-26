@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1366990821832
+Bnd-LastModified: 1366994758070
 Build-Jdk: 1.7.0_11
 Built-By: Oskr-Admin
 Bundle-ManifestVersion: 2
 Bundle-Name: Simple iCasa App
-Bundle-SymbolicName: co.edu.uis.sistemas.simple-icasa
+Bundle-SymbolicName: co.edu.uis.sistemas.simple-icasa-caos
 Bundle-Version: 0.0.1.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
 Export-Package: co.edu.uis.sistemas.simple.icasa;uses:="fr.liglab.adele.
